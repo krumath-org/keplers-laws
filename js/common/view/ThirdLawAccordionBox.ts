@@ -52,6 +52,17 @@ const EQUATION_TEXT_OPTIONS = {
   fill: SolarSystemCommonColors.foregroundProperty
 };
 
+// So that it is easier to see the selected button for this design. The defaults are better for WCAG, but
+// more difficult for simple/flat buttons.
+const RADIO_BUTTON_OPTIONS = {
+  buttonAppearanceStrategyOptions: {
+    deselectedButtonOpacity: 0.6
+  },
+  contentAppearanceStrategyOptions: {
+    deselectedContentOpacity: 0.6
+  }
+};
+
 type SelfOptions = EmptySelfOptions;
 type ThirdLawAccordionBoxOptions = AccordionBoxOptions & SelfOptions;
 
@@ -148,6 +159,7 @@ export default class ThirdLawAccordionBox extends AccordionBox {
       ],
       {
         layoutOptions: { column: 0, row: 0 },
+        radioButtonOptions: RADIO_BUTTON_OPTIONS,
         tandem: tandem.createTandem( 'periodPowerRadioButtonGroup' )
       }
     );
@@ -184,6 +196,7 @@ export default class ThirdLawAccordionBox extends AccordionBox {
       {
         layoutOptions: { column: 1, row: 1 },
         orientation: 'horizontal',
+        radioButtonOptions: RADIO_BUTTON_OPTIONS,
         tandem: tandem.createTandem( 'semiMajorAxisPowerRadioButtonGroup' )
       }
     );
