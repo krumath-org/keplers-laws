@@ -84,9 +84,9 @@ export default class StarMassPanel extends Panel {
 
     // 'Our Sun' tick label
     const ourSunTickLabel = new Text( KeplersLawsStrings.ourSunStringProperty, {
-      font: new PhetFont( 13 ),
+      font: new PhetFont( 14 ),
       fill: SolarSystemCommonColors.foregroundProperty,
-      maxWidth: 60
+      maxWidth: 80
     } );
 
     // Add tick marks and labels

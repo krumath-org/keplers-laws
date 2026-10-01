@@ -1,0 +1,233 @@
+{
+  "a11y.eraser": {
+    "value": "ជ័រលុប"
+  },
+  "a11y.firstLaw": {
+    "value": "ច្បាប់ទីមួយ"
+  },
+  "a11y.infoButtonForMoreOrbitalData": {
+    "value": "ប៊ូតុងព័ត៌មានសម្រាប់ទិន្នន័យគន្លងបន្ថែម"
+  },
+  "a11y.infoButtonForOrbitalData": {
+    "value": "ប៊ូតុងព័ត៌មានសម្រាប់ទិន្នន័យគន្លង"
+  },
+  "a11y.measurePeriod": {
+    "value": "វាស់ខួប"
+  },
+  "a11y.restartMeasurement": {
+    "value": "ចាប់ផ្តើមការវាស់ឡើងវិញ"
+  },
+  "a11y.secondLaw": {
+    "value": "ច្បាប់ទីពីរ"
+  },
+  "a11y.targetOrbitSelector": {
+    "value": "ឧបករណ៍ជ្រើសរើសគន្លងគោលដៅ"
+  },
+  "a11y.thirdLaw": {
+    "value": "ច្បាប់ទីបី"
+  },
+  "alwaysCircular": {
+    "value": "ជារង្វង់ជានិច្ច"
+  },
+  "apoapsis": {
+    "value": "អាប៉ូអាបស៊ីស"
+  },
+  "areaUnits": {
+    "value": "ផ្ទៃ (AU<sup>2</sup>)"
+  },
+  "areaValues": {
+    "value": "តម្លៃផ្ទៃ"
+  },
+  "axes": {
+    "value": "អ័ក្ស"
+  },
+  "eccentricity": {
+    "value": "អិចសង់ទ្រិស៊ីតេ"
+  },
+  "foci": {
+    "value": "កំណុំ"
+  },
+  "graph.a": {
+    "value": "កន្លះអ័ក្សធំ (a)"
+  },
+  "graph.t": {
+    "value": "ខួប (T)"
+  },
+  "graph.title": {
+    "value": "ក្រាហ្វ {{period}} ធៀបនឹង {{axis}}"
+  },
+  "infoDialog.angleBetweenVectors": {
+    "value": "<b>មុំរវាងវិចទ័រ r និង v (θ<sub>rv</sub>)។"
+  },
+  "infoDialog.focalDistance": {
+    "value": "<b>ចម្ងាយកំណុំ (c)៖</b> តំណាងឱ្យចម្ងាយរវាងផ្ចិតនៃអេលីប និងកំណុំណាមួយនៃកំណុំទាំងពីរ។"
+  },
+  "infoDialog.moreOrbitalData": {
+    "value": "ទិន្នន័យគន្លងបន្ថែម"
+  },
+  "infoDialog.orbitalData": {
+    "value": "ទិន្នន័យគន្លង"
+  },
+  "infoDialog.planetsPositionVector": {
+    "value": "<b>វិចទ័រទីតាំងរបស់ភព (|r| និង θ<sub>r</sub>)៖</b> ម៉ូឌុលវិចទ័រ |r| គឺស្មើនឹងចម្ងាយរវាងផ្កាយ និងភព។ ទិសដៅវិចទ័រ (θ<sub>r</sub>) ត្រូវបានវាស់ធៀបនឹងខ្សែផ្ដេក។"
+  },
+  "infoDialog.planetsVelocityVector": {
+    "value": "<b>វិចទ័រល្បឿនរបស់ភព (|v| និង θ<sub>v</sub>)៖</b> ម៉ូឌុលវិចទ័រ |v| គឺស្មើនឹងល្បឿនរបស់ភព។ ទិសដៅវិចទ័រ (θ<sub>v</sub>) ត្រូវបានវាស់ធៀបនឹងខ្សែផ្ដេក។"
+  },
+  "infoDialog.semiMajorAxis": {
+    "value": "<b>កន្លះអ័ក្សធំ (a)៖</b> តំណាងឱ្យពាក់កណ្តាលនៃអង្កត់ផ្ចិតវែងបំផុតនៃគន្លងរាងអេលីប។"
+  },
+  "infoDialog.semiMinorAxis": {
+    "value": "<b>កន្លះអ័ក្សតូច (b)៖</b> តំណាងឱ្យពាក់កណ្តាលនៃអង្កត់ផ្ចិតខ្លីបំផុតនៃគន្លងរាងអេលីប។"
+  },
+  "keplers-laws.title": {
+    "value": "ច្បាប់កេព្លែ"
+  },
+  "keyboardHelpDialog.chooseATargetOribit": {
+    "value": "ជ្រើសរើសគន្លងគោលដៅ"
+  },
+  "keyboardHelpDialog.targetOrbit": {
+    "value": "គន្លងគោលដៅ"
+  },
+  "keyboardHelpDialog.targetOrbits": {
+    "value": "គន្លងគោលដៅ"
+  },
+  "none": {
+    "value": "គ្មាន"
+  },
+  "orbit.earth": {
+    "value": "ផែនដី"
+  },
+  "orbit.eris": {
+    "value": "អេរីស"
+  },
+  "orbit.halley": {
+    "value": "ហារឡេ"
+  },
+  "orbit.jupiter": {
+    "value": "ភពព្រហស្បតិ៍"
+  },
+  "orbit.mars": {
+    "value": "ភពអង្គារ"
+  },
+  "orbit.mercury": {
+    "value": "ភពពុធ"
+  },
+  "orbit.nereid": {
+    "value": "នេរេអ៊ីត"
+  },
+  "orbit.targetOrbit1": {
+    "value": "គន្លងគោលដៅទី 1"
+  },
+  "orbit.targetOrbit2": {
+    "value": "គន្លងគោលដៅទី 2"
+  },
+  "orbit.targetOrbit3": {
+    "value": "គន្លងគោលដៅទី 3"
+  },
+  "orbit.targetOrbit4": {
+    "value": "គន្លងគោលដៅទី 4"
+  },
+  "orbit.venus": {
+    "value": "ភពសុក្រ"
+  },
+  "ourSun": {
+    "value": "ព្រះអាទិត្យរបស់យើង"
+  },
+  "pattern.valueUnits": {
+    "value": "{{value}} {{units}}"
+  },
+  "pattern.warningMessage": {
+    "value": "ការព្រមាន៖ {{message}}"
+  },
+  "periapsis": {
+    "value": "ប៉េរីអាបស៊ីស"
+  },
+  "period": {
+    "value": "ខួប"
+  },
+  "periodDivision": {
+    "value": "ការបែងចែកខួប"
+  },
+  "preferences.moreOrbitalData.description": {
+    "value": "បង្ហាញព័ត៌មានអំពីវិចទ័រទីតាំង និងវិចទ័រល្បឿនរបស់ភពនៅលើអេក្រង់ច្បាប់ទីមួយ និងច្បាប់ទីពីរ។"
+  },
+  "preferences.moreOrbitalData.title": {
+    "value": "ទិន្នន័យគន្លងបន្ថែម"
+  },
+  "screen.allLaws": {
+    "value": "ច្បាប់ទាំងអស់"
+  },
+  "screen.firstLaw": {
+    "value": "ច្បាប់ទីមួយ"
+  },
+  "screen.secondLaw": {
+    "value": "ច្បាប់ទីពីរ"
+  },
+  "screen.thirdLaw": {
+    "value": "ច្បាប់ទីបី"
+  },
+  "semiaxes": {
+    "value": "កន្លះអ័ក្ស"
+  },
+  "starMass": {
+    "value": "ម៉ាសផ្កាយ"
+  },
+  "stopwatch": {
+    "value": "នាឡិកាវាស់ស្ទង់ពេល"
+  },
+  "string": {
+    "value": "ខ្សែ"
+  },
+  "sweptArea": {
+    "value": "ផ្ទៃបោសកាត់"
+  },
+  "symbol.R": {
+    "value": "R"
+  },
+  "symbol.T": {
+    "value": "T"
+  },
+  "symbol.a": {
+    "value": "a"
+  },
+  "symbol.b": {
+    "value": "b"
+  },
+  "symbol.c": {
+    "value": "c"
+  },
+  "symbol.d": {
+    "value": "d"
+  },
+  "symbol.r": {
+    "value": "r"
+  },
+  "symbol.v": {
+    "value": "v"
+  },
+  "targetOrbit": {
+    "value": "គន្លងគោលដៅ៖"
+  },
+  "timeValues": {
+    "value": "តម្លៃពេលវេលា"
+  },
+  "undefined": {
+    "value": "មិនបានកំណត់"
+  },
+  "units.AU": {
+    "value": "AU"
+  },
+  "units.kms": {
+    "value": "km/s"
+  },
+  "units.years": {
+    "value": "ឆ្នាំ"
+  },
+  "warning.theBodyWillCrashIntoTheSun": {
+    "value": "អង្គធាតុនឹងធ្លាក់បុកព្រះអាទិត្យ។"
+  },
+  "warning.theBodyWillEscapeTheSystem": {
+    "value": "អង្គធាតុនឹងចាកចេញផុតពីប្រព័ន្ធ។"
+  }
+}

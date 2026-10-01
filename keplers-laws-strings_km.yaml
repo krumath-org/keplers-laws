@@ -1,0 +1,77 @@
+a11y.eraser: ជ័រលុប
+a11y.firstLaw: ច្បាប់ទីមួយ
+a11y.infoButtonForMoreOrbitalData: ប៊ូតុងព័ត៌មានសម្រាប់ទិន្នន័យគន្លងបន្ថែម
+a11y.infoButtonForOrbitalData: ប៊ូតុងព័ត៌មានសម្រាប់ទិន្នន័យគន្លង
+a11y.measurePeriod: វាស់ខួប
+a11y.restartMeasurement: ចាប់ផ្តើមការវាស់ឡើងវិញ
+a11y.secondLaw: ច្បាប់ទីពីរ
+a11y.targetOrbitSelector: ឧបករណ៍ជ្រើសរើសគន្លងគោលដៅ
+a11y.thirdLaw: ច្បាប់ទីបី
+alwaysCircular: ជារង្វង់ជានិច្ច
+apoapsis: អាប៉ូអាបស៊ីស
+areaUnits: "ផ្ទៃ (AU<sup>2</sup>)"
+areaValues: តម្លៃផ្ទៃ
+axes: អ័ក្ស
+eccentricity: អិចសង់ទ្រិស៊ីតេ
+foci: កំណុំ
+graph.a: កន្លះអ័ក្សធំ (a)
+graph.t: ខួប (T)
+graph.title: "ក្រាហ្វ {{period}} ធៀបនឹង {{axis}}"
+infoDialog.angleBetweenVectors: "<b>មុំរវាងវិចទ័រ r និង v (θ<sub>rv</sub>)។"
+infoDialog.focalDistance: "<b>ចម្ងាយកំណុំ (c)៖</b> តំណាងឱ្យចម្ងាយរវាងផ្ចិតនៃអេលីប និងកំណុំណាមួយនៃកំណុំទាំងពីរ។"
+infoDialog.moreOrbitalData: ទិន្នន័យគន្លងបន្ថែម
+infoDialog.orbitalData: ទិន្នន័យគន្លង
+infoDialog.planetsPositionVector: "<b>វិចទ័រទីតាំងរបស់ភព (|r| និង θ<sub>r</sub>)៖</b> ម៉ូឌុលវិចទ័រ |r| គឺស្មើនឹងចម្ងាយរវាងផ្កាយ និងភព។ ទិសដៅវិចទ័រ (θ<sub>r</sub>) ត្រូវបានវាស់ធៀបនឹងខ្សែផ្ដេក។"
+infoDialog.planetsVelocityVector: "<b>វិចទ័រល្បឿនរបស់ភព (|v| និង θ<sub>v</sub>)៖</b> ម៉ូឌុលវិចទ័រ |v| គឺស្មើនឹងល្បឿនរបស់ភព។ ទិសដៅវិចទ័រ (θ<sub>v</sub>) ត្រូវបានវាស់ធៀបនឹងខ្សែផ្ដេក។"
+infoDialog.semiMajorAxis: "<b>កន្លះអ័ក្សធំ (a)៖</b> តំណាងឱ្យពាក់កណ្តាលនៃអង្កត់ផ្ចិតវែងបំផុតនៃគន្លងរាងអេលីប។"
+infoDialog.semiMinorAxis: "<b>កន្លះអ័ក្សតូច (b)៖</b> តំណាងឱ្យពាក់កណ្តាលនៃអង្កត់ផ្ចិតខ្លីបំផុតនៃគន្លងរាងអេលីប។"
+keplers-laws.title: ច្បាប់កេព្លែ
+keyboardHelpDialog.chooseATargetOribit: ជ្រើសរើសគន្លងគោលដៅ
+keyboardHelpDialog.targetOrbit: គន្លងគោលដៅ
+keyboardHelpDialog.targetOrbits: គន្លងគោលដៅ
+none: គ្មាន
+orbit.earth: ផែនដី
+orbit.eris: អេរីស
+orbit.halley: ហារឡេ
+orbit.jupiter: ភពព្រហស្បតិ៍
+orbit.mars: ភពអង្គារ
+orbit.mercury: ភពពុធ
+orbit.nereid: នេរេអ៊ីត
+orbit.targetOrbit1: គន្លងគោលដៅទី 1
+orbit.targetOrbit2: គន្លងគោលដៅទី 2
+orbit.targetOrbit3: គន្លងគោលដៅទី 3
+orbit.targetOrbit4: គន្លងគោលដៅទី 4
+orbit.venus: ភពសុក្រ
+ourSun: ព្រះអាទិត្យរបស់យើង
+pattern.valueUnits: "{{value}} {{units}}"
+pattern.warningMessage: "ការព្រមាន៖ {{message}}"
+periapsis: ប៉េរីអាបស៊ីស
+period: ខួប
+periodDivision: ការបែងចែកខួប
+preferences.moreOrbitalData.description: បង្ហាញព័ត៌មានអំពីវិចទ័រទីតាំង និងវិចទ័រល្បឿនរបស់ភពនៅលើអេក្រង់ច្បាប់ទីមួយ និងច្បាប់ទីពីរ។
+preferences.moreOrbitalData.title: ទិន្នន័យគន្លងបន្ថែម
+screen.allLaws: ច្បាប់ទាំងអស់
+screen.firstLaw: ច្បាប់ទីមួយ
+screen.secondLaw: ច្បាប់ទីពីរ
+screen.thirdLaw: ច្បាប់ទីបី
+semiaxes: កន្លះអ័ក្ស
+starMass: ម៉ាសផ្កាយ
+stopwatch: នាឡិកាវាស់ស្ទង់ពេល
+string: ខ្សែ
+sweptArea: ផ្ទៃបោសកាត់
+symbol.R: R
+symbol.T: T
+symbol.a: a
+symbol.b: b
+symbol.c: c
+symbol.d: d
+symbol.r: r
+symbol.v: v
+targetOrbit: គន្លងគោលដៅ៖
+timeValues: តម្លៃពេលវេលា
+undefined: មិនបានកំណត់
+units.AU: AU
+units.kms: km/s
+units.years: ឆ្នាំ
+warning.theBodyWillCrashIntoTheSun: អង្គធាតុនឹងធ្លាក់បុកព្រះអាទិត្យ។
+warning.theBodyWillEscapeTheSystem: អង្គធាតុនឹងចាកចេញផុតពីប្រព័ន្ធ។

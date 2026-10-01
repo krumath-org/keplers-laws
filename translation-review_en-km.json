@@ -1,0 +1,1975 @@
+{
+  "sourceLanguage": "en",
+  "targetLanguage": "km",
+  "instructions": [
+    "Translate only the khmer field for each entry. Leave english unchanged.",
+    "This file lists user-visible Kepler's Laws simulation text: screens, controls, dialogs, preferences, warnings, keyboard help, and shared PhET menu/settings chrome.",
+    "Kepler's Laws has no separate practice pages; screens are First Law, Second Law, Third Law, and All Laws.",
+    "Keep placeholders such as {{value}}, {{units}}, {{period}}, {{axis}}, {{message}}, {{name}}, {{screens}}, {0}, and HTML tags such as <b>, <sup>, <sub> unchanged.",
+    "Mathematical symbols (a, b, c, T, v, AU, etc.) may stay Latin if that is preferred for science teaching; still fill khmer if you want a Khmer form.",
+    "Accessibility (a11y) strings are spoken/read by screen readers and should also be translated."
+  ],
+  "entryCount": 242,
+  "excludedCatalogEntryCount": 551,
+  "catalogsIncluded": [
+    "keplers-laws/keplers-laws-strings_en.json",
+    "solar-system-common/solar-system-common-strings_en.json",
+    "joist/joist-strings_en.json",
+    "scenery-phet/scenery-phet-strings_en.json"
+  ],
+  "notes": {
+    "simRepo": "keplers-laws (fork: krumath-org/keplers-laws)",
+    "screens": [
+      "First Law",
+      "Second Law",
+      "Third Law",
+      "All Laws"
+    ],
+    "preferences": [
+      "More Orbital Data"
+    ],
+    "sharedLibrariesUsedInUi": [
+      "solar-system-common",
+      "joist",
+      "scenery-phet"
+    ]
+  },
+  "entries": [
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:keplers-laws.title",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "keplers-laws.title",
+      "english": "Kepler's Laws",
+      "khmer": "ច្បាប់កេព្លែ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:screen.firstLaw",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "screen.firstLaw",
+      "english": "First Law",
+      "khmer": "ច្បាប់ទីមួយ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:screen.secondLaw",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "screen.secondLaw",
+      "english": "Second Law",
+      "khmer": "ច្បាប់ទីពីរ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:screen.thirdLaw",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "screen.thirdLaw",
+      "english": "Third Law",
+      "khmer": "ច្បាប់ទីបី"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:screen.allLaws",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "screen.allLaws",
+      "english": "All Laws",
+      "khmer": "ច្បាប់ទាំងអស់"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:undefined",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "undefined",
+      "english": "undefined",
+      "khmer": "មិនបានកំណត់"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:alwaysCircular",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "alwaysCircular",
+      "english": "Always Circular",
+      "khmer": "ជារង្វង់ជានិច្ច"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:targetOrbit",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "targetOrbit",
+      "english": "Target Orbit:",
+      "khmer": "គន្លងគោលដៅ៖"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:stopwatch",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "stopwatch",
+      "english": "Stopwatch",
+      "khmer": "នាឡិកាវាស់ស្ទង់ពេល"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:axes",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "axes",
+      "english": "Axes",
+      "khmer": "អ័ក្ស"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:foci",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "foci",
+      "english": "Foci",
+      "khmer": "កំណុំ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:string",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "string",
+      "english": "String",
+      "khmer": "ខ្សែ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:semiaxes",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "semiaxes",
+      "english": "Semiaxes",
+      "khmer": "កន្លះអ័ក្ស"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:eccentricity",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "eccentricity",
+      "english": "Eccentricity",
+      "khmer": "អិចសង់ទ្រិស៊ីតេ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:apoapsis",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "apoapsis",
+      "english": "Apoapsis",
+      "khmer": "អាប៉ូអាបស៊ីស"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:periapsis",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "periapsis",
+      "english": "Periapsis",
+      "khmer": "ប៉េរីអាបស៊ីស"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:starMass",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "starMass",
+      "english": "Star Mass",
+      "khmer": "ម៉ាសផ្កាយ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:ourSun",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "ourSun",
+      "english": "Our Sun",
+      "khmer": "ព្រះអាទិត្យរបស់យើង"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:period",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "period",
+      "english": "Period",
+      "khmer": "ខួប"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:periodDivision",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "periodDivision",
+      "english": "Period Divisions",
+      "khmer": "ការបែងចែកខួប"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:areaValues",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "areaValues",
+      "english": "Area Values",
+      "khmer": "តម្លៃផ្ទៃ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:timeValues",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "timeValues",
+      "english": "Time Values",
+      "khmer": "តម្លៃពេលវេលា"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:areaUnits",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "areaUnits",
+      "english": "Area (AU<sup>2</sup>)",
+      "khmer": "ផ្ទៃ (AU<sup>2</sup>)"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:sweptArea",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "sweptArea",
+      "english": "Swept Area",
+      "khmer": "ផ្ទៃបោសកាត់"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:none",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "none",
+      "english": "None",
+      "khmer": "គ្មាន"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:graph.title",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "graph.title",
+      "english": "{{period}} vs {{axis}} Graph",
+      "khmer": "ក្រាហ្វ {{period}} ធៀបនឹង {{axis}}"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:graph.a",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "graph.a",
+      "english": "Semi-major Axis (a)",
+      "khmer": "កន្លះអ័ក្សធំ (a)"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:graph.t",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "graph.t",
+      "english": "Period (T)",
+      "khmer": "ខួប (T)"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:units.AU",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "units.AU",
+      "english": "AU",
+      "khmer": "AU"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:units.years",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "units.years",
+      "english": "years",
+      "khmer": "ឆ្នាំ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:units.kms",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "units.kms",
+      "english": "km/s",
+      "khmer": "km/s"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:symbol.a",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "symbol.a",
+      "english": "a",
+      "khmer": "a"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:symbol.b",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "symbol.b",
+      "english": "b",
+      "khmer": "b"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:symbol.c",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "symbol.c",
+      "english": "c",
+      "khmer": "c"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:symbol.d",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "symbol.d",
+      "english": "d",
+      "khmer": "d"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:symbol.r",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "symbol.r",
+      "english": "r",
+      "khmer": "r"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:symbol.R",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "symbol.R",
+      "english": "R",
+      "khmer": "R"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:symbol.T",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "symbol.T",
+      "english": "T",
+      "khmer": "T"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:symbol.v",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "symbol.v",
+      "english": "v",
+      "khmer": "v"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:pattern.valueUnits",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "pattern.valueUnits",
+      "english": "{{value}} {{units}}",
+      "khmer": "{{value}} {{units}}"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:pattern.warningMessage",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "pattern.warningMessage",
+      "english": "Warning: {{message}}",
+      "khmer": "ការព្រមាន៖ {{message}}"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:warning.theBodyWillCrashIntoTheSun",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "warning.theBodyWillCrashIntoTheSun",
+      "english": "The body will crash into the sun.",
+      "khmer": "អង្គធាតុនឹងធ្លាក់បុកព្រះអាទិត្យ។"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:warning.theBodyWillEscapeTheSystem",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "warning.theBodyWillEscapeTheSystem",
+      "english": "The body will escape the system.",
+      "khmer": "អង្គធាតុនឹងចាកចេញផុតពីប្រព័ន្ធ។"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.mercury",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.mercury",
+      "english": "Mercury",
+      "khmer": "ភពពុធ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.venus",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.venus",
+      "english": "Venus",
+      "khmer": "ភពសុក្រ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.earth",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.earth",
+      "english": "Earth",
+      "khmer": "ផែនដី"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.mars",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.mars",
+      "english": "Mars",
+      "khmer": "ភពអង្គារ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.jupiter",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.jupiter",
+      "english": "Jupiter",
+      "khmer": "ភពព្រហស្បតិ៍"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.eris",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.eris",
+      "english": "Eris",
+      "khmer": "អេរីស"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.nereid",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.nereid",
+      "english": "Nereid",
+      "khmer": "នេរេអ៊ីត"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.halley",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.halley",
+      "english": "Halley",
+      "khmer": "ហារឡេ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.targetOrbit1",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.targetOrbit1",
+      "english": "Target Orbit 1",
+      "khmer": "គន្លងគោលដៅទី 1"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.targetOrbit2",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.targetOrbit2",
+      "english": "Target Orbit 2",
+      "khmer": "គន្លងគោលដៅទី 2"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.targetOrbit3",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.targetOrbit3",
+      "english": "Target Orbit 3",
+      "khmer": "គន្លងគោលដៅទី 3"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:orbit.targetOrbit4",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "orbit.targetOrbit4",
+      "english": "Target Orbit 4",
+      "khmer": "គន្លងគោលដៅទី 4"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:keyboardHelpDialog.chooseATargetOribit",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "keyboardHelpDialog.chooseATargetOribit",
+      "english": "Choose a Target Orbit",
+      "khmer": "ជ្រើសរើសគន្លងគោលដៅ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:keyboardHelpDialog.targetOrbits",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "keyboardHelpDialog.targetOrbits",
+      "english": "target orbits",
+      "khmer": "គន្លងគោលដៅ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:keyboardHelpDialog.targetOrbit",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "keyboardHelpDialog.targetOrbit",
+      "english": "target orbit",
+      "khmer": "គន្លងគោលដៅ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:infoDialog.orbitalData",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "infoDialog.orbitalData",
+      "english": "Orbital Data",
+      "khmer": "ទិន្នន័យគន្លង"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:infoDialog.moreOrbitalData",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "infoDialog.moreOrbitalData",
+      "english": "More Orbital Data",
+      "khmer": "ទិន្នន័យគន្លងបន្ថែម"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:infoDialog.semiMajorAxis",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "infoDialog.semiMajorAxis",
+      "english": "<b>Semi-major axis (a):</b> represents half of the longest diameter of the elliptical orbit.",
+      "khmer": "<b>កន្លះអ័ក្សធំ (a)៖</b> តំណាងឱ្យពាក់កណ្តាលនៃអង្កត់ផ្ចិតវែងបំផុតនៃគន្លងរាងអេលីប។"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:infoDialog.semiMinorAxis",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "infoDialog.semiMinorAxis",
+      "english": "<b>Semi-minor axis (b):</b> represents half of the shortest diameter of the elliptical orbit.",
+      "khmer": "<b>កន្លះអ័ក្សតូច (b)៖</b> តំណាងឱ្យពាក់កណ្តាលនៃអង្កត់ផ្ចិតខ្លីបំផុតនៃគន្លងរាងអេលីប។"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:infoDialog.focalDistance",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "infoDialog.focalDistance",
+      "english": "<b>Focal Distance (c):</b> represents the distance between the center of the ellipse and one of the foci.",
+      "khmer": "<b>ចម្ងាយកំណុំ (c)៖</b> តំណាងឱ្យចម្ងាយរវាងផ្ចិតនៃអេលីប និងកំណុំណាមួយនៃកំណុំទាំងពីរ។"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:infoDialog.planetsPositionVector",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "infoDialog.planetsPositionVector",
+      "english": "<b>Planet's position vector (|r| and θ<sub>r</sub>):</b> the vector magnitude |r| is equal to the distance between the star and the planet. The vector direction (θ<sub>r</sub>) is measured with respect to the horizontal.",
+      "khmer": "<b>វិចទ័រទីតាំងរបស់ភព (|r| និង θ<sub>r</sub>)៖</b> ម៉ូឌុលវិចទ័រ |r| គឺស្មើនឹងចម្ងាយរវាងផ្កាយ និងភព។ ទិសដៅវិចទ័រ (θ<sub>r</sub>) ត្រូវបានវាស់ធៀបនឹងខ្សែផ្ដេក។"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:infoDialog.planetsVelocityVector",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "infoDialog.planetsVelocityVector",
+      "english": "<b>Planet's velocity vector (|v| and θ<sub>v</sub>):</b> the vector magnitude |v| is equal to the speed of the planet. The vector direction (θ<sub>v</sub>) is measured with respect to the horizontal.",
+      "khmer": "<b>វិចទ័រល្បឿនរបស់ភព (|v| និង θ<sub>v</sub>)៖</b> ម៉ូឌុលវិចទ័រ |v| គឺស្មើនឹងល្បឿនរបស់ភព។ ទិសដៅវិចទ័រ (θ<sub>v</sub>) ត្រូវបានវាស់ធៀបនឹងខ្សែផ្ដេក។"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:infoDialog.angleBetweenVectors",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "infoDialog.angleBetweenVectors",
+      "english": "<b>Angle between vectors r and v (θ<sub>rv</sub>).",
+      "khmer": "<b>មុំរវាងវិចទ័រ r និង v (θ<sub>rv</sub>)។"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:preferences.moreOrbitalData.title",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "preferences.moreOrbitalData.title",
+      "english": "More Orbital Data",
+      "khmer": "ទិន្នន័យគន្លងបន្ថែម"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:preferences.moreOrbitalData.description",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "preferences.moreOrbitalData.description",
+      "english": "Display information about the planet's position and velocity vectors in the First and Second Law Screens.",
+      "khmer": "បង្ហាញព័ត៌មានអំពីវិចទ័រទីតាំង និងវិចទ័រល្បឿនរបស់ភពនៅលើអេក្រង់ច្បាប់ទីមួយ និងច្បាប់ទីពីរ។"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:a11y.eraser",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "a11y.eraser",
+      "english": "Eraser",
+      "khmer": "ជ័រលុប"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:a11y.targetOrbitSelector",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "a11y.targetOrbitSelector",
+      "english": "Target orbit selector",
+      "khmer": "ឧបករណ៍ជ្រើសរើសគន្លងគោលដៅ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:a11y.measurePeriod",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "a11y.measurePeriod",
+      "english": "Measure period",
+      "khmer": "វាស់ខួប"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:a11y.restartMeasurement",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "a11y.restartMeasurement",
+      "english": "Restart measurement",
+      "khmer": "ចាប់ផ្តើមការវាស់ឡើងវិញ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:a11y.firstLaw",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "a11y.firstLaw",
+      "english": "First law",
+      "khmer": "ច្បាប់ទីមួយ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:a11y.secondLaw",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "a11y.secondLaw",
+      "english": "Second law",
+      "khmer": "ច្បាប់ទីពីរ"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:a11y.thirdLaw",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "a11y.thirdLaw",
+      "english": "Third law",
+      "khmer": "ច្បាប់ទីបី"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:a11y.infoButtonForOrbitalData",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "a11y.infoButtonForOrbitalData",
+      "english": "Info button for orbital data",
+      "khmer": "ប៊ូតុងព័ត៌មានសម្រាប់ទិន្នន័យគន្លង"
+    },
+    {
+      "id": "keplers-laws/keplers-laws-strings_en.json:a11y.infoButtonForMoreOrbitalData",
+      "sourceType": "simulation",
+      "sourceFile": "keplers-laws/keplers-laws-strings_en.json",
+      "key": "a11y.infoButtonForMoreOrbitalData",
+      "english": "Info button for more orbital data",
+      "khmer": "ប៊ូតុងព័ត៌មានសម្រាប់ទិន្នន័យគន្លងបន្ថែម"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:gravityForce",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "gravityForce",
+      "english": "Gravity Force",
+      "khmer": "កម្លាំងទំនាញ"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:grid",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "grid",
+      "english": "Grid",
+      "khmer": "បណ្ដាញក្រឡា"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:measuringTape",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "measuringTape",
+      "english": "Measuring Tape",
+      "khmer": "ខ្សែម៉ែត្រ"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:velocity",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "velocity",
+      "english": "Velocity",
+      "khmer": "វ៉ិចទ័រល្បឿន"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:V",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "V",
+      "english": "V",
+      "khmer": "V"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:clear",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "clear",
+      "english": "Clear",
+      "khmer": "សម្អាត"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:path",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "path",
+      "english": "Path",
+      "khmer": "គន្លង"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:zoom",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "zoom",
+      "english": "Zoom:",
+      "khmer": "ពង្រីក/បង្រួម៖"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:offscaleMessage",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "offscaleMessage",
+      "english": "Some force vectors are too small to display.",
+      "khmer": "វិចទ័រកម្លាំងមួយចំនួនតូចពេកមិនអាចបង្ហាញបានទេ។"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:speed",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "speed",
+      "english": "Speed (km/s)",
+      "khmer": "ល្បឿន (km/s)"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:units.AU",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "units.AU",
+      "english": "AU",
+      "khmer": "AU"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:units.years",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "units.years",
+      "english": "years",
+      "khmer": "ឆ្នាំ"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:units.kms",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "units.kms",
+      "english": "km/s",
+      "khmer": "km/s"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:pattern.labelUnits",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "pattern.labelUnits",
+      "english": "{{value}} {{units}}",
+      "khmer": "{{value}} {{units}}"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:pattern.velocityValueUnits",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "pattern.velocityValueUnits",
+      "english": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+      "khmer": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:pattern.unitsPower",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "pattern.unitsPower",
+      "english": "{{units}}<sup>{{power}}</sup>",
+      "khmer": "{{units}}<sup>{{power}}</sup>"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:a11y.restart",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "a11y.restart",
+      "english": "Restart",
+      "khmer": "ចាប់ផ្តើមឡើងវិញ"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:a11y.massSlider",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "a11y.massSlider",
+      "english": "Mass Slider",
+      "khmer": "របាររំកិលម៉ាស"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:a11y.scaleSlider",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "a11y.scaleSlider",
+      "english": "Scale Slider",
+      "khmer": "របាររំកិលមាត្រដ្ឋាន"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:a11y.increase",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "a11y.increase",
+      "english": "Increase",
+      "khmer": "បង្កើន"
+    },
+    {
+      "id": "solar-system-common/solar-system-common-strings_en.json:a11y.decrease",
+      "sourceType": "shared-sim",
+      "sourceFile": "solar-system-common/solar-system-common-strings_en.json",
+      "key": "a11y.decrease",
+      "english": "Decrease",
+      "khmer": "បន្ថយ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:done",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "done",
+      "english": "Done",
+      "khmer": "រួចរាល់"
+    },
+    {
+      "id": "joist/joist-strings_en.json:menuItem.about",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "menuItem.about",
+      "english": "About…",
+      "khmer": "អំពី…"
+    },
+    {
+      "id": "joist/joist-strings_en.json:menuItem.phetWebsite",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "menuItem.phetWebsite",
+      "english": "PhET Website…",
+      "khmer": "គេហទំព័រ PhET…"
+    },
+    {
+      "id": "joist/joist-strings_en.json:menuItem.reportAProblem",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "menuItem.reportAProblem",
+      "english": "Report a Problem…",
+      "khmer": "រាយការណ៍បញ្ហា…"
+    },
+    {
+      "id": "joist/joist-strings_en.json:menuItem.screenshot",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "menuItem.screenshot",
+      "english": "Screenshot",
+      "khmer": "រូបថតអេក្រង់"
+    },
+    {
+      "id": "joist/joist-strings_en.json:menuItem.fullscreen",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "menuItem.fullscreen",
+      "english": "Full Screen",
+      "khmer": "ពេញអេក្រង់"
+    },
+    {
+      "id": "joist/joist-strings_en.json:menuItem.getUpdate",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "menuItem.getUpdate",
+      "english": "Check for Updates…",
+      "khmer": "ពិនិត្យមើលបច្ចុប្បន្នភាព…"
+    },
+    {
+      "id": "joist/joist-strings_en.json:menuItem.enhancedSound",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "menuItem.enhancedSound",
+      "english": "Extra Sound",
+      "khmer": "សំឡេងបន្ថែម"
+    },
+    {
+      "id": "joist/joist-strings_en.json:termsPrivacyAndLicensing",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "termsPrivacyAndLicensing",
+      "english": "Terms, Privacy & Licensing",
+      "khmer": "លក្ខខណ្ឌ ឯកជនភាព និងអាជ្ញាបណ្ណ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:privacyPolicy",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "privacyPolicy",
+      "english": "Privacy Policy",
+      "khmer": "គោលការណ៍ឯកជនភាព"
+    },
+    {
+      "id": "joist/joist-strings_en.json:donateToPhet",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "donateToPhet",
+      "english": "Donate to PhET",
+      "khmer": "បរិច្ចាគដល់ PhET"
+    },
+    {
+      "id": "joist/joist-strings_en.json:license.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "license.title",
+      "english": "License",
+      "khmer": "អាជ្ញាបណ្ណ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:credits.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "credits.title",
+      "english": "Credits",
+      "khmer": "ការទទួលស្គាល់ការចូលរួម"
+    },
+    {
+      "id": "joist/joist-strings_en.json:credits.leadDesign",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "credits.leadDesign",
+      "english": "Lead Design: {0}",
+      "khmer": "អ្នកដឹកនាំការរចនា៖ {0}"
+    },
+    {
+      "id": "joist/joist-strings_en.json:credits.softwareDevelopment",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "credits.softwareDevelopment",
+      "english": "Software Development: {0}",
+      "khmer": "ការអភិវឌ្ឍកម្មវិធី៖ {0}"
+    },
+    {
+      "id": "joist/joist-strings_en.json:credits.team",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "credits.team",
+      "english": "Team: {0}",
+      "khmer": "ក្រុមការងារ៖ {0}"
+    },
+    {
+      "id": "joist/joist-strings_en.json:credits.contributors",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "credits.contributors",
+      "english": "Contributors: {0}",
+      "khmer": "អ្នករួមចំណែក៖ {0}"
+    },
+    {
+      "id": "joist/joist-strings_en.json:credits.qualityAssurance",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "credits.qualityAssurance",
+      "english": "Quality Assurance: {0}",
+      "khmer": "ការធានាគុណភាព៖ {0}"
+    },
+    {
+      "id": "joist/joist-strings_en.json:credits.graphicArts",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "credits.graphicArts",
+      "english": "Graphic Arts: {0}",
+      "khmer": "សិល្បៈក្រាហ្វិក៖ {0}"
+    },
+    {
+      "id": "joist/joist-strings_en.json:credits.soundDesign",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "credits.soundDesign",
+      "english": "Sound Design: {0}",
+      "khmer": "ការរចនាសំឡេង៖ {0}"
+    },
+    {
+      "id": "joist/joist-strings_en.json:credits.translation",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "credits.translation",
+      "english": "Translation",
+      "khmer": "ការបកប្រែ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:credits.thanks",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "credits.thanks",
+      "english": "Thanks",
+      "khmer": "ថ្លែងអំណរគុណ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:versionPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "versionPattern",
+      "english": "version {0}",
+      "khmer": "កំណែ {0}"
+    },
+    {
+      "id": "joist/joist-strings_en.json:updates.upToDate",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "updates.upToDate",
+      "english": "This simulation is up to date.",
+      "khmer": "ការពិសោធន៍ក្លែងធ្វើនេះគឺទាន់សម័យហើយ។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:updates.outOfDate",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "updates.outOfDate",
+      "english": "New version available",
+      "khmer": "មានកំណែថ្មី"
+    },
+    {
+      "id": "joist/joist-strings_en.json:updates.checking",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "updates.checking",
+      "english": "Checking for updates…",
+      "khmer": "កំពុងពិនិត្យមើលបច្ចុប្បន្នភាព…"
+    },
+    {
+      "id": "joist/joist-strings_en.json:updates.offline",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "updates.offline",
+      "english": "Unable to check for updates.",
+      "khmer": "មិនអាចពិនិត្យមើលបច្ចុប្បន្នភាពបានទេ។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:updates.newVersionAvailable",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "updates.newVersionAvailable",
+      "english": "There is a new version available: {0}.",
+      "khmer": "មានកំណែថ្មីដែលអាចប្រើបាន៖ {0}។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:updates.yourCurrentVersion",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "updates.yourCurrentVersion",
+      "english": "Your current version is: {0}.",
+      "khmer": "កំណែបច្ចុប្បន្នរបស់អ្នកគឺ៖ {0}។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:updates.getUpdate",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "updates.getUpdate",
+      "english": "Get Update…",
+      "khmer": "ធ្វើបច្ចុប្បន្នភាព…"
+    },
+    {
+      "id": "joist/joist-strings_en.json:updates.noThanks",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "updates.noThanks",
+      "english": "No Thanks",
+      "khmer": "ទេ អរគុណ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:translation.credits.link",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "translation.credits.link",
+      "english": "Translation Credits",
+      "khmer": "ការទទួលស្គាល់ការបកប្រែ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:thirdParty.credits.link",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "thirdParty.credits.link",
+      "english": "Third-party Credits",
+      "khmer": "ការទទួលស្គាល់ភាគីទីបី"
+    },
+    {
+      "id": "joist/joist-strings_en.json:keyboardShortcuts.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "keyboardShortcuts.title",
+      "english": "Keyboard Shortcuts",
+      "khmer": "ផ្លូវកាត់ក្តារចុច"
+    },
+    {
+      "id": "joist/joist-strings_en.json:keyboardShortcuts.toGetStarted",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "keyboardShortcuts.toGetStarted",
+      "english": "to get started",
+      "khmer": "ដើម្បីចាប់ផ្តើម"
+    },
+    {
+      "id": "joist/joist-strings_en.json:projectorMode",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "projectorMode",
+      "english": "Projector Mode",
+      "khmer": "របៀបម៉ាស៊ីនបញ្ចាំង"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.title",
+      "english": "Preferences",
+      "khmer": "ចំណង់ចំណូលចិត្ត"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.overview.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.overview.title",
+      "english": "Overview",
+      "khmer": "ទិដ្ឋភាពទូទៅ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.general.accessibilityIntro",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.general.accessibilityIntro",
+      "english": "We are adding features to our simulations to make them more inclusive. Some of these features support accessibility for learners with diverse needs and within diverse environments. Explore this menu to review or change the default presentation settings.",
+      "khmer": "យើងកំពុងបន្ថែមមុខងារនានាទៅកាន់ការពិសោធន៍ក្លែងធ្វើរបស់យើង ដើម្បីឱ្យកាន់តែមានលក្ខណៈទូលំទូលាយសម្រាប់អ្នកសិក្សាគ្រប់រូប។ មុខងារមួយចំនួនគាំទ្រដល់លទ្ធភាពប្រើប្រាស់សម្រាប់អ្នកសិក្សាដែលមានតម្រូវការចម្រុះ និងក្នុងបរិយាកាសផ្សេងៗគ្នា។ សូមស្វែងយល់ពីម៉ឺនុយនេះដើម្បីពិនិត្យឡើងវិញ ឬផ្លាស់ប្តូរការកំណត់បទបង្ហាញលំនាំដើម។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.general.moreAccessibility",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.general.moreAccessibility",
+      "english": "Look for Inclusive Features on the Simulations Filter page of the PhET website to find all simulations with available features.",
+      "khmer": "ស្វែងរក \"មុខងារបរិយាបន្ន\" នៅលើទំព័រតម្រងការពិសោធន៍ក្លែងធ្វើនៃគេហទំព័រ PhET ដើម្បីស្វែងរកការពិសោធន៍ក្លែងធ្វើទាំងអស់ដែលមានមុខងារទាំងនេះ។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.simulation.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.simulation.title",
+      "english": "Simulation",
+      "khmer": "ការពិសោធន៍ក្លែងធ្វើ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.visual.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.visual.title",
+      "english": "Visual",
+      "khmer": "រូបភាព/គំហើញ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.visual.interactiveHighlights",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.visual.interactiveHighlights",
+      "english": "Interactive Highlights",
+      "khmer": "ការរំលេចពណ៌នៅពេលអន្តរកម្ម"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.visual.interactiveHighlightsDescription",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.visual.interactiveHighlightsDescription",
+      "english": "Add visual highlights for mouse and touch as you interact.",
+      "khmer": "បន្ថែមការរំលេចពណ៌សម្រាប់កណ្ដុរ និងការប៉ះបញ្ជា នៅពេលអ្នកធ្វើអន្តរកម្ម។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.visual.projectorModeDescription",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.visual.projectorModeDescription",
+      "english": "Increase color contrast for better visibility in classrooms.",
+      "khmer": "បង្កើនកម្រិតច្បាស់នៃពណ៌សម្រាប់ភាពងាយមើលឃើញកាន់តែច្បាស់ក្នុងថ្នាក់រៀន។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.audio.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.audio.title",
+      "english": "Audio",
+      "khmer": "សំឡេង"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.audio.voicing.titleEnglishOnly",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.audio.voicing.titleEnglishOnly",
+      "english": "Voicing (English Only)",
+      "khmer": "ការបញ្ចេញសំឡេង (ភាសាអង់គ្លេសប៉ុណ្ណោះ)"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.audio.voicing.description",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.audio.voicing.description",
+      "english": "Voice and highlight content as you interact.",
+      "khmer": "បញ្ចេញសំឡេង និងរំលេចមាតិកានៅពេលអ្នកធ្វើអន្តរកម្ម។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.audio.sounds.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.audio.sounds.title",
+      "english": "Sounds",
+      "khmer": "សំឡេង"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.audio.sounds.extraSounds.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.audio.sounds.extraSounds.title",
+      "english": "Extra Sounds",
+      "khmer": "សំឡេងបន្ថែម"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.audio.audioFeatures.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.audio.audioFeatures.title",
+      "english": "Audio Features",
+      "khmer": "មុខងារសំឡេង"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.audio.sounds.description",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.audio.sounds.description",
+      "english": "Play sonifications and sound effects as you interact.",
+      "khmer": "ចាក់សំឡេងតំណាងទិន្នន័យ និងសំឡេងបែបផែននៅពេលអ្នកធ្វើអន្តរកម្ម។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.audio.sounds.extraSounds.description",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.audio.sounds.extraSounds.description",
+      "english": "Play additional sound that may be helpful for some learners.",
+      "khmer": "ចាក់សំឡេងបន្ថែមដែលអាចមានប្រយោជន៍សម្រាប់អ្នកសិក្សាមួយចំនួន។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.title",
+      "english": "Localization",
+      "khmer": "ការធ្វើមូលដ្ឋានីយកម្ម"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.languageSelection.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.languageSelection.title",
+      "english": "Languages",
+      "khmer": "ភាសា"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.languageSelection.description",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.languageSelection.description",
+      "english": "Change language to translate on-screen text. Additional descriptions, when present, remain in English.",
+      "khmer": "ផ្លាស់ប្តូរភាសាដើម្បីបកប្រែអត្ថបទលើអេក្រង់។ ការពិពណ៌នាបន្ថែម (ប្រសិនបើមាន) នឹងនៅតែជាភាសាអង់គ្លេស។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.regionAndCulture.title",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.regionAndCulture.title",
+      "english": "Region and Culture",
+      "khmer": "តំបន់ និងវប្បធម៌"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.regionAndCulture.description",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.regionAndCulture.description",
+      "english": "Select the portrayal of people, places, or objects in the sim. Images are not intended to represent the entire diversity of a region or culture.",
+      "khmer": "ជ្រើសរើសការបង្ហាញរូបតំណាងមនុស្ស ទីកន្លែង ឬវត្ថុក្នុងការពិសោធន៍ក្លែងធ្វើ។ រូបភាពទាំងនេះមិនមានបំណងតំណាងឱ្យភាពចម្រុះទាំងស្រុងនៃតំបន់ ឬវប្បធម៌ណាមួយឡើយ។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.regionAndCulture.africa",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.regionAndCulture.africa",
+      "english": "Africa",
+      "khmer": "អាហ្វ្រិក"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.regionAndCulture.africaModest",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.regionAndCulture.africaModest",
+      "english": "Africa (Modest)",
+      "khmer": "អាហ្វ្រិក (សុភាព)"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.regionAndCulture.asia",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.regionAndCulture.asia",
+      "english": "Asia",
+      "khmer": "អាស៊ី"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.regionAndCulture.latinAmerica",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.regionAndCulture.latinAmerica",
+      "english": "Latin America",
+      "khmer": "អាមេរិកឡាទីន"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.regionAndCulture.oceania",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.regionAndCulture.oceania",
+      "english": "Oceania",
+      "khmer": "អូសេអានី"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.regionAndCulture.random",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.regionAndCulture.random",
+      "english": "Random",
+      "khmer": "ចៃដន្យ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:preferences.tabs.localization.regionAndCulture.unitedStatesOfAmerica",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "preferences.tabs.localization.regionAndCulture.unitedStatesOfAmerica",
+      "english": "United States of America",
+      "khmer": "សហរដ្ឋអាមេរិក"
+    },
+    {
+      "id": "joist/joist-strings_en.json:a11y.keyboardHelp.keyboardShortcuts",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "a11y.keyboardHelp.keyboardShortcuts",
+      "english": "Keyboard Shortcuts",
+      "khmer": "ផ្លូវកាត់ក្តារចុច"
+    },
+    {
+      "id": "joist/joist-strings_en.json:a11y.keyboardHelp.tabToGetStarted.accessibleHelpText",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "a11y.keyboardHelp.tabToGetStarted.accessibleHelpText",
+      "english": "Use Tab to find sim actions, cursor keys to read details.",
+      "khmer": "ប្រើ Tab ដើម្បីស្វែងរកសកម្មភាពពិសោធន៍ក្លែងធ្វើ និងគ្រាប់ចុចព្រួញដើម្បីអានព័ត៌មានលម្អិត។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:a11y.screenNamePattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "a11y.screenNamePattern",
+      "english": "{{name}} Screen",
+      "khmer": "អេក្រង់ {{name}}"
+    },
+    {
+      "id": "joist/joist-strings_en.json:a11y.homeScreenDescriptionPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "a11y.homeScreenDescriptionPattern",
+      "english": "Welcome to {{name}}. It has {{screens}} interactive screens that you can explore.",
+      "khmer": "សូមស្វាគមន៍មកកាន់ {{name}}។ វាមានអេក្រង់អន្តរកម្មចំនួន {{screens}} ដែលអ្នកអាចស្វែងយល់បាន។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:a11y.homeScreenHint",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "a11y.homeScreenHint",
+      "english": "Choose a screen to start exploring.",
+      "khmer": "ជ្រើសរើសអេក្រង់មួយដើម្បីចាប់ផ្តើមស្វែងយល់។"
+    },
+    {
+      "id": "joist/joist-strings_en.json:a11y.simResources",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "a11y.simResources",
+      "english": "Sim Resources",
+      "khmer": "ធនធានពិសោធន៍ក្លែងធ្វើ"
+    },
+    {
+      "id": "joist/joist-strings_en.json:a11y.soundToggle.label",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "a11y.soundToggle.label",
+      "english": "All Audio",
+      "khmer": "សំឡេងទាំងអស់"
+    },
+    {
+      "id": "joist/joist-strings_en.json:a11y.phetMenu",
+      "sourceType": "shared-ui",
+      "sourceFile": "joist/joist-strings_en.json",
+      "key": "a11y.phetMenu",
+      "english": "PhET Menu",
+      "khmer": "ម៉ឺនុយ PhET"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.tab",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.tab",
+      "english": "Tab",
+      "khmer": "Tab"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.shift",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.shift",
+      "english": "Shift",
+      "khmer": "Shift"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.alt",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.alt",
+      "english": "Alt",
+      "khmer": "Alt"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.enter",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.enter",
+      "english": "Enter",
+      "khmer": "Enter"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.space",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.space",
+      "english": "Space",
+      "khmer": "Space"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.esc",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.esc",
+      "english": "Esc",
+      "khmer": "Esc"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.pageUp",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.pageUp",
+      "english": "Pg Up",
+      "khmer": "Pg Up"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.pageDown",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.pageDown",
+      "english": "Pg Dn",
+      "khmer": "Pg Dn"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.home",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.home",
+      "english": "Home",
+      "khmer": "Home"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.end",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.end",
+      "english": "End",
+      "khmer": "End"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.a",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.a",
+      "english": "A",
+      "khmer": "A"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.d",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.d",
+      "english": "D",
+      "khmer": "D"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.r",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.r",
+      "english": "R",
+      "khmer": "R"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.s",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.s",
+      "english": "S",
+      "khmer": "S"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.w",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.w",
+      "english": "W",
+      "khmer": "W"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.zero",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.zero",
+      "english": "0",
+      "khmer": "0"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.one",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.one",
+      "english": "1",
+      "khmer": "1"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.two",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.two",
+      "english": "2",
+      "khmer": "2"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.three",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.three",
+      "english": "3",
+      "khmer": "3"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.four",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.four",
+      "english": "4",
+      "khmer": "4"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.five",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.five",
+      "english": "5",
+      "khmer": "5"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.six",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.six",
+      "english": "6",
+      "khmer": "6"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.seven",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.seven",
+      "english": "7",
+      "khmer": "7"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.eight",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.eight",
+      "english": "8",
+      "khmer": "8"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:key.nine",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "key.nine",
+      "english": "9",
+      "khmer": "9"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.sliderControls",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.sliderControls",
+      "english": "Slider Controls",
+      "khmer": "ការបញ្ជារបាររំកិល"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.adjustSlider",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.adjustSlider",
+      "english": "Adjust slider",
+      "khmer": "កែសម្រួលរបាររំកិល"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.adjustInSmallerSteps",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.adjustInSmallerSteps",
+      "english": "Adjust in smaller steps",
+      "khmer": "កែសម្រួលក្នុងជំហានតូចៗ"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.adjustInLargerSteps",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.adjustInLargerSteps",
+      "english": "Adjust in larger steps",
+      "khmer": "កែសម្រួលក្នុងជំហានធំៗ"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.jumpToMinimum",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.jumpToMinimum",
+      "english": "Jump to minimum",
+      "khmer": "លោតទៅអប្បបរមា"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.jumpToMaximum",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.jumpToMaximum",
+      "english": "Jump to maximum",
+      "khmer": "លោតទៅអតិបរមា"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.adjust",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.adjust",
+      "english": "Adjust",
+      "khmer": "កែសម្រួល"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.slider",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.slider",
+      "english": "slider",
+      "khmer": "របាររំកិល"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.verbSliderPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.verbSliderPattern",
+      "english": "{{verb}} {{slider}}",
+      "khmer": "{{verb}} {{slider}}"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.verbInSmallerStepsPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.verbInSmallerStepsPattern",
+      "english": "{{verb}} in smaller steps",
+      "khmer": "{{verb}} ក្នុងជំហានតូចៗ"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.verbInLargerStepsPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.verbInLargerStepsPattern",
+      "english": "{{verb}} in larger steps",
+      "khmer": "{{verb}} ក្នុងជំហានធំៗ"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.minimum",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.minimum",
+      "english": "minimum",
+      "khmer": "អប្បបរមា"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.maximum",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.maximum",
+      "english": "maximum",
+      "khmer": "អតិបរមា"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.jumpToMinimumPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.jumpToMinimumPattern",
+      "english": "Jump to {{minimum}}",
+      "khmer": "លោតទៅ {{minimum}}"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.jumpToMaximumPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.jumpToMaximumPattern",
+      "english": "Jump to {{maximum}}",
+      "khmer": "លោតទៅ {{maximum}}"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.generalNavigation",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.generalNavigation",
+      "english": "General Navigation",
+      "khmer": "ការរុករកទូទៅ"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.basicActions",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.basicActions",
+      "english": "Basic Actions",
+      "khmer": "សកម្មភាពមូលដ្ឋាន"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.moveToNextItem",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.moveToNextItem",
+      "english": "Move to next item",
+      "khmer": "រំកិលទៅធាតុបន្ទាប់"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.moveToPreviousItem",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.moveToPreviousItem",
+      "english": "Move to previous item",
+      "khmer": "រំកិលទៅធាតុមុន"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.moveToNextItemOrGroup",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.moveToNextItemOrGroup",
+      "english": "Move to next item or group",
+      "khmer": "រំកិលទៅធាតុ ឬក្រុមបន្ទាប់"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.moveToPreviousItemOrGroup",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.moveToPreviousItemOrGroup",
+      "english": "Move to previous item or group",
+      "khmer": "រំកិលទៅធាតុ ឬក្រុមមុន"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.pressButtons",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.pressButtons",
+      "english": "Press buttons",
+      "khmer": "ចុចប៊ូតុង"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.moveBetweenItemsInAGroup",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.moveBetweenItemsInAGroup",
+      "english": "Move between items in a group",
+      "khmer": "រំកិលចន្លោះធាតុនានាក្នុងក្រុម"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.setValuesInKeypad",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.setValuesInKeypad",
+      "english": "Set values within keypad",
+      "khmer": "កំណត់តម្លៃនៅលើក្ដារចុចលេខ"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.resetAll",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.resetAll",
+      "english": "Reset All",
+      "khmer": "កំណត់ឡើងវិញទាំងអស់"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.exitADialog",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.exitADialog",
+      "english": "Exit a dialog",
+      "khmer": "ចាកចេញពីផ្ទាំងប្រអប់"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.toggleCheckboxes",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.toggleCheckboxes",
+      "english": "Toggle checkboxes",
+      "khmer": "បិទ/បើកប្រអប់ធីក"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.or",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.or",
+      "english": "or",
+      "khmer": "ឬ"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.hyphen",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.hyphen",
+      "english": "-",
+      "khmer": "-"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.grabOrReleaseHeadingPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.grabOrReleaseHeadingPattern",
+      "english": "Grab or Release {{thing}}",
+      "khmer": "ចាប់យក ឬលែង {{thing}}"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.grabOrReleaseLabelPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.grabOrReleaseLabelPattern",
+      "english": "Grab or release {{thing}}",
+      "khmer": "ចាប់យក ឬលែង {{thing}}"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.comboBox.chooseAThingPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.comboBox.chooseAThingPattern",
+      "english": "Choose a {{thingTitle}}",
+      "khmer": "ជ្រើសរើស {{thingTitle}}"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.comboBox.headingString",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.comboBox.headingString",
+      "english": "Change Choice",
+      "khmer": "ផ្លាស់ប្តូរជម្រើស"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.comboBox.popUpListPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.comboBox.popUpListPattern",
+      "english": "1. Show {{thingPlural}}",
+      "khmer": "១. បង្ហាញ {{thingPlural}}"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.comboBox.moveThroughPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.comboBox.moveThroughPattern",
+      "english": "2. Move through {{thingPlural}}",
+      "khmer": "២. រំកិលកាត់តាម {{thingPlural}}"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.comboBox.chooseNewPattern",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.comboBox.chooseNewPattern",
+      "english": "3. Change {{thingSingular}}",
+      "khmer": "៣. ផ្លាស់ប្តូរ {{thingSingular}}"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.comboBox.closeWithoutChanging",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.comboBox.closeWithoutChanging",
+      "english": "4. Close without changing",
+      "khmer": "៤. បិទដោយមិនផ្លាស់ប្តូរ"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.comboBox.options",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.comboBox.options",
+      "english": "choices",
+      "khmer": "ជម្រើស"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.comboBox.option",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.comboBox.option",
+      "english": "choice",
+      "khmer": "ជម្រើស"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.moveDraggableItems",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.moveDraggableItems",
+      "english": "Move Draggable Items",
+      "khmer": "រំកិលធាតុដែលអាចអូសបាន"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.move",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.move",
+      "english": "Move",
+      "khmer": "រំកិល"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:keyboardHelpDialog.moveSlower",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "keyboardHelpDialog.moveSlower",
+      "english": "Move slower",
+      "khmer": "រំកិលឱ្យយឺតជាងមុន"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:a11y.close",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "a11y.close",
+      "english": "Close",
+      "khmer": "បិទ"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:speed.fast",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "speed.fast",
+      "english": "Fast",
+      "khmer": "លឿន"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:speed.normal",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "speed.normal",
+      "english": "Normal",
+      "khmer": "ធម្មតា"
+    },
+    {
+      "id": "scenery-phet/scenery-phet-strings_en.json:speed.slow",
+      "sourceType": "shared-ui",
+      "sourceFile": "scenery-phet/scenery-phet-strings_en.json",
+      "key": "speed.slow",
+      "english": "Slow",
+      "khmer": "យឺត"
+    }
+  ]
+}

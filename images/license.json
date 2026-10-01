@@ -62,5 +62,13 @@
     "projectURL": "https://phet.colorado.edu",
     "license": "contact phethelp@colorado.edu",
     "notes": "created by Diana López"
+  },
+  "KantumruyProKhmer.woff2": {
+    "text": [
+      "Copyright 2015 Tep Sovichet and others"
+    ],
+    "projectURL": "https://github.com/KhmerType/KantumruyPro",
+    "license": "OFL-1.1",
+    "notes": "Kantumruy Pro Khmer subset for localization"
   }
 }
